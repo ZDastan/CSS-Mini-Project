@@ -4,27 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
+  <link rel="stylesheet" href="./assets/style.css">
     <title>CSS Snippet Cheatsheet</title>
 </head>
 <body>
-    <header class="main-header">
-      <h1>CSS Snippet Cheatsheet</h1>
-    </header>
-      <p class="id">Ever have trouble recalling the exact syntax for your favorite CSS code?
-        Give it a permanent home and add it to this page!Select any snippet below and 
-        it'll automatically select all of the code for you to copy.</p>
+  
+    <header>
+      <h1 class="page-title">CSS Snippet Cheatsheet</h1>
    
-    <div class="grid-container">
-      <div class="grid-item"><div class="card-header">Flexbox Row </div>
-        <p style="font-size: 20px;">Use these three properties to create a Flexbox row layout.</p>
-        <pre class="code-card">
+      <p>Ever have trouble recalling the exact syntax for your favorite CSS code?
+        Give it a permanent home and add it to this page!Select any snippet below and 
+        it'll automatically select all of the code for you to copy.
+      </p>
+      </header>
+      <main>
+        <section class="row justify-center">
+    <div class="card-column">
+      <figure class="card code-card">
+      <h2 class="card-header">Flexbox Row </h2>
+      <div class="card-body"> 
+        <p>Use these three properties to create a Flexbox row layout.</p>
+      </div>
+       
+        <pre class="code-block">
+          <code>
           .row {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
           } 
+        </code>
         </pre>
+      </figure>
     </div>
       <div class="grid-item"><div class="card-header">Flexbox Column</div>
       <p style="font-size:20px;">Use this create a Flexbox column layout.</p>
@@ -82,8 +93,11 @@ box-shadow: insert 0px 0px 8pxrgba(232, 102, 236, 1),
       </pre>
     </div>
     </div> 
-</body>
+    </section>
+  </main>
+
 <div class="footer">
 <footer>Made with &#x1F49C and CSS</footer>
 </div>
+</body>
 </html>
